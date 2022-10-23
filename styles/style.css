@@ -73,7 +73,7 @@ body {
     line-height: 130%;
     color: #030305;
     margin-bottom: 40px;
-    max-width: 520px;
+    max-width: 502px;
 }
 .button{
     padding: 20px;
@@ -113,4 +113,103 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+}
+.car-item{
+    max-width: 384px;
+    text-align: center;
+    margin-top: 40px;
+}
+.car-item-image img{
+    vertical-align: bottom;
+}
+.car-item-title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #030305;
+    padding: 15px 0 17px 0;
+}
+.car-item-info{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.car-item-point{
+    width: 110px;
+    height: 92px;
+    margin: 0 7.5px;
+}
+.car-item-point img{
+    margin-bottom: 11px;
+}
+.car-item-action{
+    margin-top: 13px;
+}
+.car-item-action .button{
+    width: 100%;
+    padding: 15px;
+    height: 54px;
+}
+.car-item-point >div:nth-child(2){
+    font-weight: bold;
+}
+.price{
+    overflow: hidden;
+}
+.price .container{
+    position: relative;
+    padding-bottom: 121px;
+}
+.price .sub-title{
+    margin-bottom: 20px;
+}
+.price-text{
+    font-size: 16px;
+    line-height: 130%;
+    color: #5D5D5F;
+    margin-bottom: 60px;
+}
+.price-form{
+    max-width: 344px;
+}
+.price-input{
+    padding: 22px 18px;
+    width: 344px;
+    height: 65px;
+    background: #FFFFFF;
+    border: 1px solid #5D5D5F;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #000000;
+    outline: none;
+    margin-bottom: 15px;
+}
+.price-input::placeholder{
+    color: #5D5D5F;
+}
+.price .button{
+    width: 100%;
+}
+
+.price-image{
+    position: absolute;
+    bottom: 0;
+    left: 401px;
+}
+
+.footer{
+    border-top: 1px solid #E5E5E5;
+    padding: 25px 0;
+}
+.footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rights{
+    font-size: 15px;
+    text-align: right;
+    color: #030305;
 }
